@@ -5,6 +5,7 @@
 
 body {
     background: #ddd6fe;
+    font-family: arial;
 }
 
 header {
@@ -36,46 +37,49 @@ header {
 .nav li {
     list-style-type: none;
 }
+.text-container {
+    margin: 100px auto;
+    width: 90%;
+    border: 1px solid #71717a;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    background: #e9d5ff;
+}
 
+.text-container h1 {
+    margin-bottom: 20px;
+}
 .card-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
     flex-wrap: wrap;
+    margin: 40px auto;
+    width: 90%;
 }
-
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     background-color: #a3a3a3;
     width: 220px;
     height: 300px;
     border-radius: 10px;
     margin: 10px;
+    padding: 20px;
 }
 
-.card img {
-    width: 6rem;
+.card a {
+    text-decoration: none;
+    background: #e9d5ff;
+    padding: 8px 15px;
+    font-size: 1.1rem;
+    border-radius: 12px;
 }
 
-table {
-    /* border-collapse: collapse; */
-    width: 70%;
-    margin: 50px auto;
-    border-radius: 6px;
-}
-table,
-td {
-    border: 1px solid rgb(68, 62, 62);
-    font-size: 1.2rem;
-}
-table th {
-    height: 30px;
-}
-
-table td {
-    height: 30px;
+.card a:hover {
+    background: #d8b4fe;
 }

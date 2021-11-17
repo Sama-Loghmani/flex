@@ -5,12 +5,14 @@
 
 body {
     background: #ddd6fe;
+    font-family: arial;
 }
 
 header {
     position: sticky;
     top: 0;
 }
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -36,49 +38,46 @@ header {
 .nav li {
     list-style-type: none;
 }
-.text-container {
-    margin: 100px auto;
-    width: 90%;
-    border: 1px solid #71717a;
-    border-radius: 10px;
-    padding: 20px 20px;
-    font-size: 1.1rem;
-    line-height: 1.7rem;
-    background: #e9d5ff;
-}
 
-.text-container h1 {
-    margin-bottom: 20px;
-}
 .card-container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    margin: 20px;
     flex-wrap: wrap;
-    margin: 50px auto;
-    width: 90%;
+    align-content: center;
 }
+
 .card {
+    background-color: #a3a3a3;
+    width: 170px;
+    height: 210px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
-    background-color: #a3a3a3;
-    width: 220px;
-    height: 300px;
-    border-radius: 10px;
+    align-items: center;
     margin: 10px;
-    padding: 20px;
+    border-radius: 10px;
 }
 
-.card a {
-    text-decoration: none;
+.rules-container {
+    display: flex;
+    border: 1px solid #71717a;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 30px 40px;
     background: #e9d5ff;
-    padding: 8px 15px;
-    font-size: 1.1rem;
-    border-radius: 12px;
 }
 
-.card a:hover {
-    background: #d8b4fe;
+.rules-container p {
+    border-right: 1px solid #71717a;
+
+    margin-right: 30px;
+    padding: 30px 10px;
+    font-size: 1.5rem;
+}
+
+.rules-container ol {
+    margin-left: 10px;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }

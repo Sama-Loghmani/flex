@@ -5,13 +5,13 @@
 
 body {
     background: #ddd6fe;
+    font-family: arial;
 }
 
 header {
     position: sticky;
     top: 0;
 }
-
 .nav {
     display: flex;
     justify-content: space-around;
@@ -42,8 +42,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
     flex-wrap: wrap;
-    align-content: space-around;
 }
 
 .card {
@@ -52,17 +52,33 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #a3a3a3;
-    width: 230px;
+    width: 220px;
     height: 300px;
     border-radius: 10px;
     margin: 10px;
 }
-.goal-container {
-    width: 90%;
-    border: 1px solid #71717a;
-    border-radius: 10px;
+
+.card img {
+    width: 6rem;
+}
+
+table {
+    /* border-collapse: collapse; */
+    width: 70%;
     margin: 50px auto;
-    padding: 20px 20px;
-    line-height: 1.5rem;
+    border-radius: 6px;
     background: #e9d5ff;
+}
+table,
+td {
+    border: 1px solid rgb(68, 62, 62);
+    font-size: 1.2rem;
+}
+table th {
+    height: 30px;
+}
+
+table td {
+    height: 30px;
+    padding-left: 7px;
 }

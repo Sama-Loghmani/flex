@@ -5,6 +5,7 @@
 
 body {
     background: #ddd6fe;
+    font-family: arial;
 }
 
 header {
@@ -41,42 +42,28 @@ header {
 .card-container {
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    align-items: center;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: space-around;
 }
 
 .card {
-    background-color: #a3a3a3;
-    width: 170px;
-    height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 10px;
+    background-color: #a3a3a3;
+    width: 230px;
+    height: 300px;
     border-radius: 10px;
+    margin: 10px;
 }
-
-.rules-container {
-    display: flex;
+.goal-container {
+    width: 90%;
     border: 1px solid #71717a;
     border-radius: 10px;
-    margin: 30px auto;
-    padding: 30px 40px;
-    background: #e9d5ff;
-}
-
-.rules-container p {
-    border-right: 1px solid #71717a;
-
-    margin-right: 30px;
-    padding: 30px 10px;
-    font-size: 1.5rem;
-}
-
-.rules-container ol {
-    margin-left: 10px;
-    font-size: 1.1rem;
+    margin: 50px auto;
+    padding: 20px 20px;
     line-height: 1.5rem;
+    background: #e9d5ff;
 }
