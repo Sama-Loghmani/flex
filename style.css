@@ -44,6 +44,7 @@ header {
     padding: 20px 20px;
     font-size: 1.1rem;
     line-height: 1.7rem;
+    background: #e9d5ff;
 }
 
 .text-container h1 {
@@ -72,12 +73,12 @@ header {
 
 .card a {
     text-decoration: none;
-    background-color: #f1f1f1;
+    background: #e9d5ff;
     padding: 8px 15px;
     font-size: 1.1rem;
     border-radius: 12px;
 }
 
 .card a:hover {
-    background: #e2e2e2;
+    background: #d8b4fe;
 }
